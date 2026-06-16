@@ -4,4 +4,36 @@ body {
   padding-top: 70px; /* Space for fixed navbar */
 }
 
-/* Add more custom styles as needed */
+/* Hero Carousel Styles */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover; /* Crop images to fit */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* On smaller screens */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+}
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<div class="carousel-caption d-none d-md-block">
+    <h2>Welcome to My Site</h2>
+    <p>Discover what we have to offer.</p>
+    <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg">Learn More</a>
+</div>
