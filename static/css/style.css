@@ -20,7 +20,6 @@ body {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-
 /* On smaller screens */
 @media (max-width: 768px) {
   .carousel-item img {
@@ -37,3 +36,28 @@ body {
     <p>Learn about and understand VALORANT</p>
     <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg">Learn More</a>
 </div>
+/* Feature Cards */
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Section Styles */
+section {
+  background-color: #f8f9fa;
+}
+
+section h2 {
+  font-weight: bold;
+}
