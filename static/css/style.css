@@ -55,7 +55,7 @@ body {
 
 /* Section Styles */
 section {
-  background-color: #f8f9fa;
+  background-color: #ff4655;
 }
 
 section h2 {
@@ -80,7 +80,7 @@ section h2 {
 
 /* Section Styles */
 section {
-  background-color: #f8f9fa;
+  background-color: #ff4655;
 }
 
 section h2 {
@@ -99,13 +99,13 @@ section h2 {
 
 .contact-info {
   padding: 20px;
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info a {
-  color: #0d6efd;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -115,9 +115,9 @@ section h2 {
 /* Contact Form Styles */
 .contact-form {
   padding: 30px;
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(56, 55, 55, 0.1);
 }
 
 .contact-form .form-control,
@@ -128,8 +128,8 @@ section h2 {
 
 .contact-form .form-control:focus,
 .contact-form .form-select:focus {
-  border-color: #0d6efd;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  border-color: #000000;
+  box-shadow: 0 0 0 0.25rem rgba(2, 1, 39, 0.25);
 }
 
 .contact-form .btn {

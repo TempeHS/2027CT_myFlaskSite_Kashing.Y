@@ -1,14 +1,14 @@
 {% extends 'base.html' %} {% block title %}Contact - My Flask Site{% endblock %}
 {% block content %}
 <div class="container py-5">
-  <h1 class="text-center mb-5">Contact Us</h1>
+  <h1 class="text-center mb-5" style="color: #ffffff;">Contact Us</h1>
 
   <div class="row">
     <!-- Map Column -->
     <div class="col-lg-6 mb-4">
       <div class="map-container">
         <iframe
-          src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7966643628297!2d151.16000621818173!3d-33.920632493311345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e0!3m2!1sen!2ssg!4v1782173587678!5m2!1sen!2ssg"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.8108488497414!2d151.1582788755762!3d-33.920267473206934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e0!3m2!1sen!2sau!4v1782256352694!5m2!1sen!2sau"
           width="100%"
           height="400"
           style="border: 0"
@@ -17,111 +17,87 @@
         >
         </iframe>
       </div>
-    </div>
 
-    <!-- Info Column -->
-    <div class="col-lg-6 mb-4">
-      <!-- Contact form will go here in next lesson -->
-
-      <!-- Contact Info -->
-      <div class="contact-info mt-4">
-        <h4>Get in Touch</h4>
-        <p>Have questions? We'd love to hear from you!</p>
-
-        <ul class="list-unstyled">
-  <li class="mb-3">
-    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
-    <strong>Address:</strong><br>
-    <span class="ms-4">119 Unwins Bridge Road, Tempe, NSW 2044</span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-telephone-fill text-primary me-2"></i>
-    <strong>Phone:</strong><br>
-    <span class="ms-4">(04) 1234 5678</span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-envelope-fill text-primary me-2"></i>
-    <strong>Email:</strong><br>
-    <span class="ms-4"><a href="mailto:info@myflasksite.com">info@myflasksite.com</a></span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-clock-fill text-primary me-2"></i>
-    <strong>Hours:</strong><br>
-    <span class="ms-4">Mon-Fri: 9am - 5pm</span>
-  </li>
-</ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container py-5">
-  
-  <div class="row">
-    <!-- Map Column -->
-    <div class="col-lg-6 mb-4">
-      <div class="map-container">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7966643628297!2d151.16000621818173!3d-33.920632493311345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e0!3m2!1sen!2ssg!4v1782173587678!5m2!1sen!2ssg"
-          width="100%" 
-          height="400" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
-      </div>
-      
       <!-- Contact Info (moved below map) -->
       <div class="contact-info mt-4">
-        <h4>Other Ways to Reach Us</h4>
+        <h4 style="color: #ffffff;">Other Ways to Reach Us</h4>
         <ul class="list-unstyled mb-0">
-          <li class="mb-2"><strong>📍</strong> 123 Main Street, Sydney, NSW 2000</li>
-          <li class="mb-2"><strong>📞</strong> (02) 1234 5678</li>
-          <li><strong>✉️</strong> <a href="mailto:info@myflasksite.com">info@myflasksite.com</a></li>
+          <li class="mb-2">
+            <strong>📍</strong><h4 style="color: #ffffff;"> 123 Main Street, Sydney, NSW 2000</h4>
+          </li>
+          <li class="mb-2"><strong>📞</strong><h4 style="color: #ffffff;">(02) 1234 5678</h4></li>
+          <li>
+            <strong>✉️</strong>
+            <a href="mailto:info@myflasksite.com">info@myflasksite.com</a>
+          </li>
         </ul>
       </div>
     </div>
-    
+
     <!-- Form Column -->
     <div class="col-lg-6 mb-4">
       <div class="contact-form">
-        <h4 class="mb-4">Send us a Message</h4>
-        
+        <h4 class="mb-4" style="color: #ffffff;">Send us a Message</h4>
+
         <form action="#" method="POST">
           <!-- Name Field -->
           <div class="mb-3">
-            <label for="name" class="form-label">Your Name *</label>
-            <input type="text" class="form-control" id="name" name="name" 
-                   placeholder="John Smith" required>
+            <label for="name" class="form-label"<h4 style="color: #ffffff;">Your Name *</ha></label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Ibuki Seki"
+              required
+            />
           </div>
-          
-          <!-- Email Field -->
+
+<!-- Email Field -->
           <div class="mb-3">
-            <label for="email" class="form-label">Email Address *</label>
-            <input type="email" class="form-control" id="email" name="email" 
-                   placeholder="john@example.com" required>
+            <label for="email" class="form-label"><h4 style="color: #ffffff; font-weight: bold; margin: 0;">Email Address *</h4></label>
+            <input 
+              type="email" 
+              class="form-control" 
+              id="email" 
+              name="email" 
+              placeholder="Ibuki.Sek1@gmail.com" 
+              style="background-color: #FF4655; color: #ffffff !important; border-color: #FF4655;"
+              required
+            />
           </div>
-          
-          <!-- Subject Field -->
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <select class="form-select" id="subject" name="subject">
-              <option value="" selected>Choose a topic...</option>
-              <option value="general">General Inquiry</option>
-              <option value="support">Support</option>
-              <option value="feedback">Feedback</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          
+
+<!-- Subject Field -->
+          <div class="mb-3"> 
+              <label for="subject" class="form-label" style="color: #ffffff !important; font-weight: 600;">Subject</label> 
+              <select class="form-select" id="subject" name="subject" style="background-color: #FF4655; color: #ffffff !important;">
+                <option value="" style="color: #ffffff !important; background-color: #FF4655;" selected>Choose a topic...</option>
+                <option value="general" style="color: #ffffff !important; background-color: #FF4655;">General Inquiry</option>
+                <option value="support" style="color: #ffffff !important; background-color: #FF4655;">Support</option>
+                <option value="feedback" style="color: #ffffff !important; background-color: #FF4655;">Feedback</option>
+                <option value="other" style="color: #ffffff !important; background-color: #FF4655;">Other</option>
+            </select> 
+        </div>
+
           <!-- Message Field -->
           <div class="mb-3">
-            <label for="message" class="form-label">Message *</label>
-            <textarea class="form-control" id="message" name="message" 
-                      rows="5" placeholder="How can we help you?" required></textarea>
+            <label for="message" class="form-label">
+              <span style="color: #ffffff;">Message <span style="color: #ff4655;">*</span></span>
+            </label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="How can we help you?"
+              required
+            ></textarea>
           </div>
-          
+
           <!-- Submit Button -->
-          <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+          <button type="submit" class="btn btn-lg w-100" style="background-color: #FF4655; color: white;">Submit</button>
+            Send Message
+          </button>
         </form>
       </div>
     </div>
