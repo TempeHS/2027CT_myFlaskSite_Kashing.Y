@@ -42,30 +42,47 @@
         <form action="#" method="POST">
           <!-- Name Field -->
           <div class="mb-3">
-            <label for="name" class="form-label"<h4 style="color: #ffffff;">Your Name *</ha></label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              placeholder="Ibuki Seki"
-              required
-            />
-          </div>
+            <style>
+              #name::placeholder {
+                color: #ffffff;
+                opacity: 1;
+              }
+          </style>
+          <label for="name" class="form-label" style="color: #ffffff;">
+            Your Name <span style="color: #ff4655;">*</span>
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Ibuki Seki"
+            style="background-color: #ff4655; color: #ffffff !important; border-color: #ff4655;"
+            required
+          />
+        </div>
 
-<!-- Email Field -->
-          <div class="mb-3">
-            <label for="email" class="form-label"><h4 style="color: #ffffff; font-weight: bold; margin: 0;">Email Address *</h4></label>
-            <input 
+          <!-- Email Field -->
+          <div class="mb-3"> 
+            <style>
+              #email::placeholder {
+                color: #ffffff;
+                opacity: 1;
+              }
+            </style>
+            <label for="email" class="form-label" style="color: #ffffff;">
+              Email Address <span style="color: #ff4655;">*</span>
+            </label>
+            <input
               type="email" 
               class="form-control" 
               id="email" 
               name="email" 
               placeholder="Ibuki.Sek1@gmail.com" 
-              style="background-color: #FF4655; color: #ffffff !important; border-color: #FF4655;"
-              required
-            />
-          </div>
+              style="color: #ffffff !important; background-color: #FF4655; border-color: #FF4655;" 
+              required 
+              /> 
+            </div>
 
 <!-- Subject Field -->
           <div class="mb-3"> 
@@ -81,16 +98,22 @@
 
           <!-- Message Field -->
           <div class="mb-3">
-            <label for="message" class="form-label">
-              <span style="color: #ffffff;">Message <span style="color: #ff4655;">*</span></span>
+            <style>
+              #message::placeholder {
+                color: #ffffff;
+                opacity: 1;
+              }
+            </style>
+            <label for="message" class="form-label" style="color: #ffffff;">Message<span style="color: #ff4655;">*</span>
             </label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="How can we help you?"
-              required
+            <textarea 
+              class="form-control" 
+              id="message" 
+              name="message" 
+              rows="5" 
+              placeholder="How can we help you?" 
+              required 
+              style="background-color: #ff4655; color: #ffffff; border-color: #ff4655;"
             ></textarea>
           </div>
 
