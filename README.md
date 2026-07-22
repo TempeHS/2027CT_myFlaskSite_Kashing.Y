@@ -2,12 +2,12 @@
 
 | Field                          | Detail |
 | ------------------------------ | ------ |
-| **Website Title**              |        |
-| **Student Name(s)**            |        |
-| **Class / Course**             |        |
-| **Repository**                 |        |
-| **Live Site / Codespaces URL** |        |
-| **Date**                       |        |
+| **Website Title**              | ValoUtil |
+| **Student Name(s)**            | Kashing Yang |
+| **Class / Course**             | 9CT1 |
+| **Repository**                 | 2027CT_myFlaskSite_Kashing.Y |
+| **Live Site / Codespaces URL** | https://github.com/TempeHS/2027CT_myFlaskSite_Kashing.Y/ |
+| **Date**                       | 22/07/2026 |
 
 > Your website is the main piece of work. This README is short on purpose — it
 > points a reader to your **2-minute walkthrough** and gives an honest
