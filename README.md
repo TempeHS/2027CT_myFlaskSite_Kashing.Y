@@ -1,13 +1,4 @@
 
-
-https://github.com/user-attachments/assets/d6e475ae-96b6-4195-955a-c010b7425b74
-
-
-
-https://github.com/user-attachments/assets/f8d32b47-4c3c-4651-84c7-e42c968c635c
-
-
-
 # Website Name
 
 | Field                          | Detail |
